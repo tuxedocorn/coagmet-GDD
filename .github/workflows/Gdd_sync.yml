@@ -2,7 +2,7 @@ name: GDD Sync
  
 on:
   schedule:
-    - cron: "0 14 * * *"   # 8:00 AM MDT (UTC-6) — offset from other syncs
+    - cron: "0 10 * * *"   # 4:00 AM MDT (UTC-6) — offset from other syncs
   workflow_dispatch:        # allow manual trigger anytime
  
 jobs:
